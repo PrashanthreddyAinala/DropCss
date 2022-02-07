@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+:root {
+  --primary: #acc8e5;
+  --secondary: #e06358;
+  --gray: #112a46;
+  --gray-1: #828282;
+  --gray-2: #334155;
+  --light-gray: #d4d4d4;
+  --light-pink: #ffe0cc;
+}
+
+body {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}
+
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background: linear-gradient(
+    135deg,
+    hsla(211, 52%, 79%, 1) 0%,
+    hsla(301, 84%, 81%, 1) 100%,
+    hsla(347, 75%, 61%, 1) 100%
+  );
+}
+
+.landing h1 {
+  margin: 0px;
+  color: var(--gray);
+}
+
+.landing p {
+  padding: 1.5rem 0rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.landing button {
+  border: 3px solid var(--gray);
+  border-radius: 0.5rem;
+  color: var(--gray);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.landing-image {
+  width: 50vw;
+}
+
+.landing-content {
+  width: 50vw;
+  padding-left: 3rem;
+}
+
+.navbar {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 0rem 1rem;
+  background-color: var(--primary);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  z-index: 50;
+  position: sticky;
+  top: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.navbar p {
+  font-weight: 900;
+  color: var(--gray);
+}
+
+.aside {
+  width: 20vw;
+  height: calc(100vh - 9rem);
+  padding: 2rem;
+  background-color: var(--light-gray);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  z-index: 20;
+  border-top-right-radius: 10px;
+  overflow-y: scroll;
+}
+
+.main {
+  width: 80vw;
+  padding: 2rem;
+}
+
+.components-list {
+  list-style: none;
+  padding-left: 15px;
+}
+
+li {
+  margin-bottom: 1.5rem;
+}
+
+pre {
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+code {
+  background-color: var(--gray);
+  border-radius: 1rem;
+  color: white;
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 3rem 1rem;
+  text-align: center;
+  width: 90%;
+}
