@@ -1,0 +1,102 @@
+:root {
+  --orange: #db6400;
+  --red: #e06358;
+  --gray-1: #828282;
+  --gray-2: #334155;
+  --light-gray: #e6e6e6;
+  --light-pink: #ffe0cc;
+}
+
+/* button basic style */
+.btn {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  outline: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* anchor style */
+a {
+  text-decoration: none;
+  color: var(--gray-2);
+}
+
+/* font sizes */
+.font-size-sm {
+  font-size: 0.75rem;
+}
+.font-size-md {
+  font-size: 1rem;
+}
+.font-size-lg {
+  font-size: 1.25rem;
+}
+.font-size-xl {
+  font-size: 1.5rem;
+}
+.font-size-2xl {
+  font-size: 1.875rem;
+}
+.font-size-3xl {
+  font-size: 2.25rem;
+}
+
+.font-size-4xl {
+  font-size: 2.5rem;
+}
+
+/* text-color */
+.text-gray {
+  color: var(--gray-1);
+}
+
+.text-gray2 {
+  color: var(--gray-2);
+}
+
+/* font-weight */
+.text-medium {
+  font-weight: 600;
+}
+
+.text-semibold {
+  font-weight: 700;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+/* padding */
+.padding-top-4 {
+  padding-top: 1rem;
+}
+
+.padding-top-8 {
+  padding-top: 2rem;
+}
+
+.padding-bottom-4 {
+  padding-top: 1rem;
+}
+
+.padding-bottom-8 {
+  padding-top: 2rem;
+}
+
+/* flex properties */
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
