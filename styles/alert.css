@@ -1,0 +1,29 @@
+:root {
+  --primary: #acc8e5;
+  --secondary: #e06358;
+}
+
+.alert {
+  padding: 1rem 0.9rem;
+  border-radius: 10px;
+}
+
+.alert-Primary {
+  background-color: var(--primary);
+}
+
+.alert-secondary {
+  background-color: var(--secondary);
+}
+
+.alert-success {
+  background-color: #2dc653;
+}
+
+.alert-error {
+  background-color: #ff2828;
+}
+
+.alert-warning {
+  background-color: #ffd037;
+}
