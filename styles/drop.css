@@ -89,3 +89,12 @@ a {
 .line-height {
   line-height: 2.3rem;
 }
+
+/* position */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
