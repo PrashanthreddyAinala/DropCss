@@ -1,26 +1,7 @@
+@import url(./colors.css);
 @import url(./avatar.css);
 @import url(./alert.css);
-
-:root {
-  --orange: #db6400;
-  --red: #e06358;
-  --gray-1: #828282;
-  --gray-2: #334155;
-  --light-gray: #e6e6e6;
-  --light-pink: #ffe0cc;
-}
-
-/* button basic style */
-.btn {
-  font-size: 0.8rem;
-  font-weight: 700;
-  padding: 0.8rem 1rem;
-  border-radius: 0.5rem;
-  background-color: transparent;
-  outline: transparent;
-  border: none;
-  cursor: pointer;
-}
+@import url(./button.css);
 
 /* anchor style */
 a {

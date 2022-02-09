@@ -1,7 +1,4 @@
-:root {
-  --primary: #acc8e5;
-  --secondary: #e06358;
-}
+@import url(./colors.css);
 
 .alert {
   padding: 1rem 0.9rem;
@@ -17,13 +14,13 @@
 }
 
 .alert-success {
-  background-color: #2dc653;
+  background-color: var(--success-color);
 }
 
 .alert-error {
-  background-color: #ff2828;
+  background-color: var(--error-color);
 }
 
 .alert-warning {
-  background-color: #ffd037;
+  background-color: var(--warning-color);
 }

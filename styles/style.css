@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
-:root {
-  --primary: #acc8e5;
-  --secondary: #e06358;
-  --gray: #112a46;
-  --gray-1: #828282;
-  --gray-2: #334155;
-  --light-gray: #d4d4d4;
-  --light-pink: #ffe0cc;
-}
+@import url(./colors.css);
 
 body {
   margin: 0px;
@@ -140,4 +132,9 @@ code {
 .alert-container {
   margin: 2rem auto;
   width: 50%;
+}
+
+.btn-container {
+  width: 80%;
+  margin: 2rem auto;
 }
