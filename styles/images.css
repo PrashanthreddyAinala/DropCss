@@ -1,0 +1,28 @@
+@import url(./colors.css);
+
+.image-wrapper {
+  width: 30%;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.img-round {
+  border-radius: 100%;
+}
+
+.img-sm {
+  width: 5rem;
+  height: 5rem;
+}
+
+.img-md {
+  width: 12rem;
+  height: 12rem;
+}
+
+.img-lg {
+  width: 15rem;
+  height: 15rem;
+}
