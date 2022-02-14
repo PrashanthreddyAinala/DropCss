@@ -6,6 +6,7 @@
 @import url(./images.css);
 @import url(./list.css);
 @import url(./input.css);
+@import url(./navigation.css);
 
 /* anchor style */
 a {
@@ -107,6 +108,10 @@ a {
 
 .margin-bottom-8 {
   margin-bottom: 2rem;
+}
+
+.margin-left-1 {
+  margin-left: 1rem;
 }
 
 /* flex properties */

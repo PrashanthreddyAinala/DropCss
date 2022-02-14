@@ -1,0 +1,35 @@
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: var(--primary);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 0rem 1rem;
+  justify-content: space-between;
+}
+
+.nav-section {
+  display: flex;
+  font-weight: 600;
+  user-select: none;
+}
+
+.nav-section p {
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.nav-section p:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+
+.logo-section {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-icon {
+  padding-right: 5px;
+}
