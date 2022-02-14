@@ -116,7 +116,7 @@ code {
 }
 
 .active {
-  color: #3771af !important;
+  color: var(--primary) !important;
 }
 
 .avatar-container {
@@ -142,4 +142,12 @@ code {
 .badge-container {
   width: 60%;
   margin: 2rem auto;
+}
+
+.inputs-container {
+  background-color: var(--light-gray);
+  padding: 2rem 2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
