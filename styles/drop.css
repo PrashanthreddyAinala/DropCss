@@ -3,6 +3,7 @@
 @import url(./alert.css);
 @import url(./button.css);
 @import url(./cards.css);
+@import url(./images.css);
 
 /* anchor style */
 a {
@@ -101,6 +102,10 @@ a {
 
 .align-center {
   align-items: center;
+}
+
+.align-end {
+  align-items: end;
 }
 
 .justify-around {
