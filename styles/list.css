@@ -1,0 +1,38 @@
+.list-style {
+  list-style: none;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.list-element {
+  background-color: var(--primary);
+  padding: 1rem 2rem;
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid var(--secondary);
+}
+
+.list-element p {
+  padding: 0rem 1rem;
+}
+
+.list-style li {
+  margin-bottom: 0rem;
+}
+
+.list-style-stacked {
+  list-style: none;
+}
+
+.list-style-stacked li {
+  margin-bottom: 0rem;
+  padding: 1rem 2rem;
+}
+
+.list-style-stacked > .list-stack-element:nth-child(even) {
+  background-color: var(--primary);
+}
+
+.list-style-stacked > .list-stack-element:nth-child(odd) {
+  background-color: var(--light-pink);
+}

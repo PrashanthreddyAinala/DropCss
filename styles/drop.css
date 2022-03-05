@@ -4,6 +4,7 @@
 @import url(./button.css);
 @import url(./cards.css);
 @import url(./images.css);
+@import url(./list.css);
 
 /* anchor style */
 a {
@@ -44,6 +45,14 @@ a {
   color: var(--gray-2);
 }
 
+.text-color-secondary {
+  color: var(--secondary);
+}
+
+.text-color-primary {
+  color: var(--primary);
+}
+
 /* font-weight */
 .text-medium {
   font-weight: 600;
@@ -68,6 +77,10 @@ a {
 
 .padding-top-4 {
   padding-top: 1rem;
+}
+
+.padding-top-8 {
+  padding-top: 2rem;
 }
 
 .padding-bottom-2 {
@@ -132,4 +145,12 @@ a {
 /* text */
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
 }
