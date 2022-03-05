@@ -88,6 +88,9 @@ p {
   z-index: 20;
   border-top-right-radius: 10px;
   overflow-y: scroll;
+  user-select: none;
+  position: sticky;
+  top: 5rem;
 }
 
 .main {
@@ -118,4 +121,23 @@ code {
   padding: 3rem 1rem;
   text-align: center;
   width: 90%;
+}
+
+.active {
+  color: #3771af !important;
+}
+
+.avatar-container {
+  padding-top: 4rem;
+  width: 50%;
+}
+
+.code-snippet {
+  margin: 3rem auto;
+  width: 100%;
+}
+
+.alert-container {
+  margin: 2rem auto;
+  width: 50%;
 }
