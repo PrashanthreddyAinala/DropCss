@@ -1,0 +1,67 @@
+@import url(./colors.css);
+
+.btn {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  outline: transparent;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--blue);
+  color: white;
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-icon {
+  background-color: var(--light-pink);
+}
+
+.btn-icon-in {
+  padding-right: 3px;
+  width: 1rem;
+  height: 1rem;
+}
+
+.btn-outline-primary {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.btn-outline-secondary {
+  border: 2px solid var(--secondary);
+  color: var(--secondary);
+}
+
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* badge */
+.badge {
+  padding: 0.4rem;
+}
+
+.badge-text {
+  background-color: var(--light-pink);
+  padding: 1px 4px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 14px;
+  top: 0;
+  right: 0;
+  border: 2px solid white;
+}
+
+.badge-tag {
+  background-color: var(--light-pink);
+  border-radius: 5px;
+  font-size: 14px;
+}
