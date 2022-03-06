@@ -16,7 +16,7 @@
             <div >
                 <p class="font-size-lg text-semibold">Getting Started</p>
                 <ul class="components-list">
-                    <li class="text-medium text-gray2 font-size-lg"><a href="getStarted.html" class="active">Installation</a></li>
+                    <li class="text-medium text-gray2 font-size-lg"><a href="getStarted.html">Installation</a></li>
                 </ul>
                 <p class="font-size-lg text-semibold">Components</p>
                 <ul class="components-list font-size-lg text-medium text-gray2">
@@ -31,7 +31,7 @@
                     <li><a href="./text.html">Text Utilities</a></li>
                     <li><a href="./navigation.html">Navigation</a></li>
                     <li><a href="./modal.html">Modal</a></li>
-                    <li><a href="./toast.html">Toast</a></li>
+                    <li><a href="./toast.html" class="active">Toast</a></li>
                     <li>Rating </li>
                     <li>Slider</li>
                     <li>Grid</li>
@@ -39,14 +39,34 @@
             </div>
         </aside>
         <main class="main">
-            <div>
-                <p class="text-gray2 text-medium font-size-2xl">Get started</p>
-                <p class="padding-top-2 font-size-lg text-gray line-height">Dropcss is a component library where you can easily import it and build your web application more faster and responsive just by dropping css classes.</p>
-                <pre>
-                    <code class="language-html">&lt;link rel="stylesheet" href="https://dropcss.netlify.app/styles/drop.css &gt;</code>
-                </pre>
+            <p class="text-gray2 text-medium font-size-2xl">Toast</p>
+            <p class="padding-top-2 font-size-lg text-gray line-height">
+                The toast component is like an alert box that is only shown for a couple of seconds when something happens i.e. when the user clicks on a button, submits a form, etc. 
+            </p>
+            <div class="inputs-container">
+                <div class="inputs-wrapper">
+                    <div class="toast success-toast flex">
+                        <span>This is a success toast.</span>
+                        <p>x</p>
+                    </div>
+                    <div class="toast error-toast flex margin-top-2">
+                        <span>This is a error toast.</span>
+                        <p>x</p>
+                    </div>
+                    <div class="toast warning-toast flex margin-top-2">
+                        <span>This is a warning toast.</span>
+                        <p>x</p>
+                    </div>
+                </div>
+            </div>
+            <div class="margin-top-2 code-snippet">
+                <iframe
+                    src="https://carbon.now.sh/embed/ZZasFh5wjPt1sBsnsZJy"
+                    style="width: 100%; height: 428px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
         </main>
-    </div>
+    </div> 
   </body>
 </html>
