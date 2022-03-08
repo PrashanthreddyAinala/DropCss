@@ -137,6 +137,18 @@ a {
   justify-content: center;
 }
 
+.grid {
+  display: grid;
+}
+
+.grid-col-2 {
+  grid-template-columns: auto auto;
+}
+
+.grid-col-3 {
+  grid-template-columns: auto auto auto;
+}
+
 .line-height {
   line-height: 2.3rem;
 }
